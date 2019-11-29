@@ -30040,7 +30040,7 @@ The fuel tank volume type should also be used for the wing fuel tank</xsd:docume
                             </xsd:annotation>
                         </xsd:element>
                     </xsd:choice>
-                    <xsd:element name="ribStart" type="stringBaseType">
+                    <xsd:element name="ribFrontBound" type="stringBaseType">
                         <xsd:annotation>
                             <xsd:documentation>
                                 Defines the forward beginning of the ribs. It can either be a
@@ -30048,7 +30048,7 @@ The fuel tank volume type should also be used for the wing fuel tank</xsd:docume
                             </xsd:documentation>
                         </xsd:annotation>
                     </xsd:element>
-                    <xsd:element name="ribEnd" type="stringBaseType">
+                    <xsd:element name="ribRearBound" type="stringBaseType">
                         <xsd:annotation>
                             <xsd:documentation>
                                 Defines the backward ending of the ribs. It can either be a
