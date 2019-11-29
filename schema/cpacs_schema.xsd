@@ -29839,22 +29839,6 @@ The fuel tank volume type should also be used for the wing fuel tank</xsd:docume
                             </xsd:annotation>
                         </xsd:element>
                     </xsd:choice>
-                    <xsd:element name="ribStart" type="stringBaseType">
-                        <xsd:annotation>
-                            <xsd:documentation>
-                                Defines the forward beginning of the ribs. It can either be a
-                                sparUID or "trailingEdge" or "leadingEdge".
-                            </xsd:documentation>
-                        </xsd:annotation>
-                    </xsd:element>
-                    <xsd:element name="ribEnd" type="stringBaseType">
-                        <xsd:annotation>
-                            <xsd:documentation>
-                                RibEnd defines the backward ending of the ribs. It can either be a
-                                sparUID or "trailingEdge" or "leadingEdge".
-                            </xsd:documentation>
-                        </xsd:annotation>
-                    </xsd:element>
                 </xsd:sequence>
             </xsd:extension>
         </xsd:complexContent>
